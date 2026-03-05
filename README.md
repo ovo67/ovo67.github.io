@@ -1,19 +1,21 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# 吴世光的个人主页
 
-![Academic Pages template example](images/homepage.png "Academic Pages template example")
+这是吴世光的学术个人网站，基于 [Academic Pages](https://github.com/academicpages/academicpages.github.io) 模板构建。
 
-# Getting Started
+## 关于我
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+我是吴世光，清华大学电子系博士生（2023年入学），导师是姚权铭教授。
 
-See more info at https://academicpages.github.io/
+## 网站说明
+
+本网站基于 Jekyll 和 GitHub Pages 构建。如需本地预览：
+
+1. 安装 Ruby 和 Bundler
+2. 运行 `bundle install`
+3. 运行 `jekyll serve -l -H localhost`
+4. 在浏览器中访问 `http://localhost:4000`
+
+更多信息请访问 [Academic Pages 指南](https://academicpages.github.io/)
 
 ## Running locally
 
